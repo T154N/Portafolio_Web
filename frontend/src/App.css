@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Estilos para el contenedor principal */
+/* Estilos para el contenedor principal */
+.app-container {
+  display: flex;
+  min-height: 100vh; /* Asegura que el gradiente cubra toda la altura de la pantalla */
+  background: linear-gradient(to bottom, #222126, #786B69); /* Gradiente vertical */
+}
+
+/* Estilos para el contenido */
+.content {
+  margin-left: 60px; /* Margen izquierdo igual al ancho de la barra lateral oculta */
+  padding: 20px;
+  width: calc(100% - 60px); /* Ajustar el ancho del contenido */
+  transition: margin-left 0.3s ease; /* Animación suave */
+  color:#ffffff
+}
+/*
+.sidebar:hover ~ .content {
+  margin-left: 220px; /* Margen izquierdo igual al ancho de la barra lateral desplegada 
+}*/
+ /* Ajustar el margen cuando la barra lateral se despliega */
