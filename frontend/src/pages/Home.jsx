@@ -1,53 +1,18 @@
 import React from 'react';
+import { Container } from '@mui/material';
+import Header from '../components/Header';
+import Projects from '../components//Projects';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+
 const Home = () => {
   return (
-    <div>
-      <h1>Bienvenido a mi portafolio</h1>
-      <p>Soy Santiago Arias, analista de sistemas y programador Full Stack.</p>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-      <h1>Bienvenido a mi portafolio</h1>
-
-    </div>
+    <Container maxWidth="xl">
+      <Header />
+      <Projects />
+      <Contact />
+      <Footer />
+    </Container>
   );
 };
 

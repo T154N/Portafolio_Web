@@ -1,0 +1,50 @@
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, #000, #333);
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.left-side, .right-side {
+    width: 45%;
+    text-align: center;
+}
+
+.turbo-image, .dragon-image {
+    width: 100%;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+}
